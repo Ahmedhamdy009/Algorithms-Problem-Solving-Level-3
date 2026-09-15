@@ -4,166 +4,124 @@
   <img src="https://img.shields.io/badge/C%2B%2B-Algorithms%20%26%20Problem%20Solving-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/51-Problems-2EA44F?style=for-the-badge" alt="51 Problems">
   <img src="https://img.shields.io/badge/Level-3-6F42C1?style=for-the-badge" alt="Level 3">
-  <img src="https://img.shields.io/badge/Matrices%20%7C%20Strings%20%7C%20Files-Advanced%20Practice-F6C343?style=for-the-badge" alt="Advanced Practice">
 </p>
 
 <p align="center">
-  <b>A structured C++ problem-solving journey focused on matrices, strings, recursion, file handling, and practical algorithmic thinking.</b>
-</p>
-
-<p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-problem-roadmap">Problems</a> •
-  <a href="#-core-skills">Skills</a> •
-  <a href="#-repository-structure">Structure</a>
+  <b>A structured collection of C++ problem-solving exercises covering matrices, recursion, strings, text processing, records, and file handling.</b>
 </p>
 
 ---
 
 ## 📌 Overview
 
-This repository contains **51 C++ problem-solving exercises** from **Algorithms & Problem Solving — Level 3**.
+This repository contains **51 problem statements** from **Algorithms & Problem Solving — Level 3**. Each problem is organized in its own folder with a clean, predictable name.
 
-The problems progress from **2D matrices and matrix operations** to **recursion, strings, text processing, records, and file-based client management**.
+The repository intentionally contains the **problem statements only**. Solutions and source code are not included here.
 
-> 🎯 **Goal:** strengthen algorithmic thinking, reusable functions, data manipulation, and practical C++ programming skills through progressively more challenging problems.
-
-| 📊 Repository | Details |
+| 📊 | Details |
 |---|---:|
 | 🧩 Problems | **51** |
 | 💻 Language | **C++** |
-| 🧮 Matrices | **20 problems** |
-| 🔤 Strings | **22 problems** |
-| 📁 File / Record Handling | **7 problems** |
-| 🔁 Recursion | **Included** |
-| 📚 Organization | **One folder per problem** |
+| 🧮 Main topics | **Matrices • Recursion • Strings • File Handling** |
+| 📁 Organization | **One folder per problem** |
+| 📝 Content | **Problem statements only** |
 
 ---
 
-## 🧭 Problem Roadmap
+# 🧭 Problem Roadmap
 
-> Every problem is kept in its own folder so the solution, explanation, and related files can be maintained independently.
+### 🧮 Problems 01–10 — Matrices
 
-### 🧮 Problems 01–10 — Matrices & Matrix Operations
-
-| # | Problem | Main concept |
-|---:|---|---|
-| 01 | Random Matrix | 2D arrays / random values |
-| 02 | Sum Each Row in Matrix | Matrix traversal / accumulation |
-| 03 | Sum Each Row in Matrix in Array | Matrix + array aggregation |
-| 04 | Sum Each Column in Matrix | Column traversal |
-| 05 | Sum Each Column in Matrix in Another Array | Column aggregation |
-| 06 | 3×3 Ordered Matrix | Nested loops / matrix construction |
-| 07 | Transpose Matrix | Rows ↔ columns |
-| 08 | Multiply Two Matrices | Matrix multiplication |
-| 09 | Print Middle Row and Column of Matrix | Indexing / traversal |
-| 10 | Sum of Matrix | Complete matrix aggregation |
+| # | Problem | 📖 |
+|---:|---|:---:|
+| 01 | Random Matrix | [View](./Problem-01-Random-Matrix/) |
+| 02 | Sum Each Row in Matrix | [View](./Problem-02-Sum-Each-Row-In-Matrix/) |
+| 03 | Sum Each Row in Matrix in Array | [View](./Problem-03-Sum-Each-Row-In-Matrix-In-Array/) |
+| 04 | Sum Each Col in Matrix | [View](./Problem-04-Sum-Each-Col-In-Matrix/) |
+| 05 | Sum Each Col in Matrix in Another Array | [View](./Problem-05-Sum-Each-Col-In-Matrix-In-Another-Array/) |
+| 06 | 3x3 Ordered Matrix | [View](./Problem-06-3x3-Ordered-Matrix/) |
+| 07 | Transpose Matrix | [View](./Problem-07-Transpose-Matrix/) |
+| 08 | Multiply Two Matrices | [View](./Problem-08-Multiply-Two-Matrices/) |
+| 09 | Print Middle Row and Col of Matrix | [View](./Problem-09-Print-Middle-Row-And-Col-Of-Matrix/) |
+| 10 | Sum of Matrix | [View](./Problem-10-Sum-Of-Matrix/) |
 
 ### 🔎 Problems 11–20 — Matrix Validation & Searching
 
-| # | Problem | Main concept |
-|---:|---|---|
-| 11 | Check Matrices Equality | Matrix comparison |
-| 12 | Check Typical Matrices | Matrix property validation |
-| 13 | Check Identity Matrix | Diagonal / zero checks |
-| 14 | Check Scalar Matrix | Diagonal equality / validation |
-| 15 | Count Number in Matrix | Matrix searching / counting |
-| 16 | Check Sparse Matrix | Non-zero counting / conditions |
-| 17 | Number Exists in Matrix | Search / boolean result |
-| 18 | Intersected Numbers in Matrices | Cross-matrix comparison |
-| 19 | Min/Max Number in Matrix | Traversal / min-max |
-| 20 | Palindrome Matrix | Symmetry / comparison |
+| # | Problem | 📖 |
+|---:|---|:---:|
+| 11 | Check Matrices Equality | [View](./Problem-11-Check-Matrices-Equality/) |
+| 12 | Check Typical Matrices | [View](./Problem-12-Check-Typical-Matrices/) |
+| 13 | Check Identity Matrix | [View](./Problem-13-Check-Identity-Matrix/) |
+| 14 | Check Scalar Matrix | [View](./Problem-14-Check-Scalar-Matrix/) |
+| 15 | Count Number in Matrix | [View](./Problem-15-Count-Number-In-Matrix/) |
+| 16 | Check Sparse Matrix | [View](./Problem-16-Check-Sparse-Matrix/) |
+| 17 | Number Exists in Matrix | [View](./Problem-17-Number-Exists-In-Matrix/) |
+| 18 | Intersected Numbers in Matrices | [View](./Problem-18-Intersected-Numbers-In-Matrices/) |
+| 19 | Min/Max Number in Matrix | [View](./Problem-19-Min-Max-Number-In-Matrix/) |
+| 20 | Palindrom Matrix | [View](./Problem-20-Palindrom-Matrix/) |
 
-### 🔁 Problems 21–30 — Recursion & String Fundamentals
+### 🔁 Problems 21–30 — Fibonacci & String Fundamentals
 
-| # | Problem | Main concept |
-|---:|---|---|
-| 21 | Fibonacci Series | Iterative sequence generation |
-| 22 | Fibonacci Series With Recursion | Recursion |
-| 23 | Print First Letter of Each Word | String traversal |
-| 24 | Upper First Letter of Each Word | Character transformation |
-| 25 | Lower First Letter of Each Word | Character transformation |
-| 26 | Upper/Lower All Letters of a String | Case conversion |
-| 27 | Invert Character Case | Character classification |
-| 28 | Invert All Letters Case | String-wide case inversion |
-| 29 | Count Small/Capital Letters | Character counting |
-| 30 | Count Letters | Frequency / traversal |
+| # | Problem | 📖 |
+|---:|---|:---:|
+| 21 | Fibonacci Series | [View](./Problem-21-Fibonacci-Series/) |
+| 22 | Fibonacci Series With Recursion | [View](./Problem-22-Fibonacci-Series-With-Recursion/) |
+| 23 | Print First Letter of Each Word | [View](./Problem-23-Print-First-Letter-Of-Each-Word/) |
+| 24 | Upper First Letter of Each Word | [View](./Problem-24-Upper-First-Letter-Of-Each-Word/) |
+| 25 | Lower First Letter of Each Word | [View](./Problem-25-Lower-First-Letter-Of-Each-Word/) |
+| 26 | Upper/Lower All Letters of a String | [View](./Problem-26-Upper-Lower-All-Letters-Of-A-String/) |
+| 27 | Invert Character Case | [View](./Problem-27-Invert-Character-Case/) |
+| 28 | Invert All Letters Case | [View](./Problem-28-Invert-All-Letters-Case/) |
+| 29 | Count Small/Capital Letters | [View](./Problem-29-Count-Small-Capital-Letters/) |
+| 30 | Count Letters | [View](./Problem-30-Count-Letters/) |
 
 ### 🔤 Problems 31–40 — String Processing
 
-| # | Problem | Main concept |
-|---:|---|---|
-| 31 | Count Letters (Match Case) | Case-sensitive counting |
-| 32 | Is Vowel? | Character validation |
-| 33 | Count Vowel | Vowel counting |
-| 34 | Print All Vowels in String | Filtering / traversal |
-| 35 | Print Each Word in String | Tokenization |
-| 36 | Count Each Word in String | Word counting |
-| 37 | Split String | String splitting |
-| 38 | TrimLeft, TrimRight, Trim | Whitespace handling |
-| 39 | Join String | Concatenation / joining |
-| 40 | Join String (OverLoading) | Function overloading |
+| # | Problem | 📖 |
+|---:|---|:---:|
+| 31 | Count Letters (Match Case) | [View](./Problem-31-Count-Letters-Match-Case/) |
+| 32 | Is Vowel? | [View](./Problem-32-Is-Vowel/) |
+| 33 | Count Vowel | [View](./Problem-33-Count-Vowels/) |
+| 34 | Print All Vowels in String | [View](./Problem-34-Print-All-Vowels-In-String/) |
+| 35 | Print Each Word in String | [View](./Problem-35-Print-Each-Word-In-String/) |
+| 36 | Count Each Word in String | [View](./Problem-36-Count-Each-Word-In-String/) |
+| 37 | Split String | [View](./Problem-37-Split-String/) |
+| 38 | TrimLeft, TrimRight, Trim | [View](./Problem-38-TrimLeft-TrimRight-Trim/) |
+| 39 | Join String | [View](./Problem-39-Join-String/) |
+| 40 | Join String (Overloading) | [View](./Problem-40-Join-String-Overloading/) |
 
 ### 🗂️ Problems 41–51 — Advanced Strings & File Handling
 
-| # | Problem | Main concept |
-|---:|---|---|
-| 41 | Reverse Words | Word order manipulation |
-| 42 | Replace Words | String replacement |
-| 43 | Replace Words (Custom) | Custom string processing |
-| 44 | Remove Punctuations | Character filtering |
-| 45 | Convert Record to Line | Struct / serialization |
-| 46 | Convert Line Data to Record | Parsing / deserialization |
-| 47 | Add Clients to File | File I/O / records |
-| 48 | Show All Clients | File reading / display |
-| 49 | Find Client by Account Number | File search |
-| 50 | Delete Client by Account Number | File update / deletion |
-| 51 | Update Client by Account Number | File update / record editing |
+| # | Problem | 📖 |
+|---:|---|:---:|
+| 41 | Reverse Words | [View](./Problem-41-Reverse-Words/) |
+| 42 | Replace Words | [View](./Problem-42-Replace-Words/) |
+| 43 | Replace Words (Custom) | [View](./Problem-43-Replace-Words-Custom/) |
+| 44 | Remove Punctuations | [View](./Problem-44-Remove-Punctuations/) |
+| 45 | Convert Record to Line | [View](./Problem-45-Convert-Record-To-Line/) |
+| 46 | Convert Line Data to Record | [View](./Problem-46-Convert-Line-Data-To-Record/) |
+| 47 | Add Clients to File | [View](./Problem-47-Add-Clients-To-File/) |
+| 48 | Show All Clients | [View](./Problem-48-Show-All-Clients/) |
+| 49 | Find Client by Account Number | [View](./Problem-49-Find-Client-By-Account-Number/) |
+| 50 | Delete Client by Account Number | [View](./Problem-50-Delete-Client-By-Account-Number/) |
+| 51 | Update Client by Account Number | [View](./Problem-51-Update-Client-By-Account-Number/) |
 
 ---
 
-## 🧠 Core Skills
-
-<table>
-<tr>
-<td>✅ 2D Arrays</td>
-<td>✅ Matrix Operations</td>
-<td>✅ Recursion</td>
-<td>✅ Strings</td>
-</tr>
-<tr>
-<td>✅ Character Processing</td>
-<td>✅ Searching</td>
-<td>✅ Validation</td>
-<td>✅ Function Overloading</td>
-</tr>
-<tr>
-<td>✅ Tokenization</td>
-<td>✅ Parsing</td>
-<td>✅ Structs / Records</td>
-<td>✅ File I/O</td>
-</tr>
-</table>
-
----
-
-## 📁 Repository Structure
+## 📁 Structure
 
 ```text
 Algorithms-Problem-Solving-Level-3/
 │
 ├── Problem-01-Random-Matrix/
-│   ├── Solution-01.cpp
 │   └── README.md
 │
 ├── Problem-02-Sum-Each-Row-In-Matrix/
-│   ├── Solution-01.cpp
 │   └── README.md
 │
 ├── ...
 │
 ├── Problem-51-Update-Client-By-Account-Number/
-│   ├── Solution-01.cpp
 │   └── README.md
 │
 └── README.md
@@ -171,23 +129,21 @@ Algorithms-Problem-Solving-Level-3/
 
 ### 🏷️ Naming Convention
 
-Use clean, predictable names with `-` separators for folders and files whenever the repository is being structured:
+All problem folders follow a clean naming convention using `-` separators and numbered prefixes:
 
 - `Problem-01-Random-Matrix`
 - `Problem-22-Fibonacci-Series-With-Recursion`
 - `Problem-47-Add-Clients-To-File`
-- `Solution-01.cpp`
-- `Alternative-Solution-01.cpp`
 
-This keeps paths readable and safe across GitHub, terminals, and development environments.
+This keeps the repository easy to navigate and safe to use across GitHub, terminals, and IDEs.
 
 ---
 
-## 🚀 Learning Flow
+## 🚀 Learning Path
 
-**Understand → Solve → Compare → Refactor → Practice**
+**Understand → Solve → Practice → Compare → Improve**
 
-Start with the problem statement, write your own solution, then compare approaches and improve the implementation. The later sections build toward reusable string-processing utilities and practical file-based record management.
+The repository provides the questions in an organized structure so solutions can be added or maintained independently without changing the original problem statements.
 
 ---
 
