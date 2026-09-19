@@ -1,5 +1,4 @@
 // Write your C++ solution here.
-// Write your C++ solution here.
 #include <iostream>
 #include <string>
 #include <ctime>
