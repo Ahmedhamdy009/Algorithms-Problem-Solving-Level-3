@@ -15,7 +15,7 @@ int RandomNumber(int From, int To)
     return rand() % (To - From + 1) + From;
 }
 
-void FillMatrixWithOrderedNumbers(int arr[3][3], short Rows, short Cols)
+void FillMatrixWithRandomNumbers(int arr[3][3], short Rows, short Cols)
 {
 
     for (int i = 0; i < Rows; i++)
@@ -58,8 +58,8 @@ int main()
     int Matrix1[3][3], Matrix2[3][3];
     int multipledMatrix[3][3];
 
-    FillMatrixWithOrderedNumbers(Matrix1, 3, 3);
-    FillMatrixWithOrderedNumbers(Matrix2, 3, 3);
+    FillMatrixWithRandomNumbers(Matrix1, 3, 3);
+    FillMatrixWithRandomNumbers(Matrix2, 3, 3);
 
     cout << "\n Matrix1 \n";
     PrintMatrix(Matrix1, 3, 3);
