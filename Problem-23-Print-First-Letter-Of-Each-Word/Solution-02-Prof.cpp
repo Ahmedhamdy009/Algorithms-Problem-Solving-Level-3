@@ -14,18 +14,21 @@ string ReadString(string Msg)
 void PrintFirstLetterEachWord(string Message)
 {
     int length = Message.length();//عدد الحروف
+    bool isFirstLetter = true;
     char space = ' ';
 
     cout<<"\n First Letter of this string : \n";
-    cout << Message[0] << endl;//اول حرف 
 
-    for (int i = 0; i < length; i++)
+    for (short i = 0; i < length; i++)
     {
 
-        if (Message[i] == space)
+        if (Message[i] != space && isFirstLetter)
         {
-            cout << Message[i + 1] << endl;
+            cout << Message[i] << endl;
         }
+        //Ahmed Hamdy
+        // A != ''  = false      ,    '' == '' = true = H
+        isFirstLetter = (Message[i] == space ? true : false);
     }
 }
 

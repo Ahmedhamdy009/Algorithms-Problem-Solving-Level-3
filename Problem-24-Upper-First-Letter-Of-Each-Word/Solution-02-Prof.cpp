@@ -11,7 +11,7 @@ string ReadString(string Msg)
 
     return message;
 }
-string LowerFirstLetterOfEachWord(string Message)
+string UpperFirstLetterOfEachWord(string Message)
 {
     int length = Message.length(); // عدد الحروف
     bool isFirstLetter = true;
@@ -22,10 +22,10 @@ string LowerFirstLetterOfEachWord(string Message)
 
         if (Message[i] != space && isFirstLetter)
         {
-            Message[i] = tolower(Message[i]);
+            Message[i] = toupper(Message[i]);
         }
         // Ahmed Hamdy
-        //  a != ''  = false      ,    '' == '' = true = -> h
+        //  A != ''  = false      ,    '' == '' = true = H
         isFirstLetter = (Message[i] == space ? true : false);
     }
     return Message;
@@ -36,7 +36,7 @@ int main()
     string S1 = ReadString("Please Enter Your String ? \n");
     cout << "\nString After Conversion : \n";
 
-    cout << LowerFirstLetterOfEachWord(S1) << endl;
+    cout << UpperFirstLetterOfEachWord(S1) << endl;
 
     return 0;
 }
