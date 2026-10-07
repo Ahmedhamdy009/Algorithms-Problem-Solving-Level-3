@@ -36,8 +36,8 @@ int main()
 {
     string Words = ReadString();
     char Char1 = ReadChar();
-
-    cout << "\nLetter " << Char1 << " Count = " << CountLetters(Words, Char1) << endl;
+ 
+    cout << "\nLetter " << Char1 << " Count = " << CountLetters(Words, Char1) << endl; 
 
     return 0;
 }
